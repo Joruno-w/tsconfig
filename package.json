@@ -1,26 +1,31 @@
 {
-	"name": "@sindresorhus/tsconfig",
-	"version": "3.0.1",
-	"description": "Shared TypeScript config for my projects",
-	"license": "MIT",
-	"repository": "sindresorhus/tsconfig",
-	"author": {
-		"name": "Sindre Sorhus",
-		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
-	},
-	"main": "tsconfig.json",
-	"engines": {
-		"node": ">=14"
-	},
-	"files": [
-		"tsconfig.json"
-	],
-	"keywords": [
-		"tsconfig",
-		"typescript",
-		"ts",
-		"config",
-		"configuration"
-	]
+  "name": "@joruno/tsconfig",
+  "version": "0.0.1",
+  "description": "Shared TypeScript config for my projects",
+  "license": "MIT",
+  "author": "Joruno-w <1710642275@qq.com>",
+  "homepage": "https://github.com/Joruno-w/@joruno/tsconfig#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joruno-w/@joruno/tsconfig.git"
+  },
+  "bugs": "https://github.com/Joruno-w/type-verve/issues",
+  "main": "tsconfig.json",
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ]
 }
